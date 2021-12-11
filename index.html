@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forca</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <h1>Jogo da Forca</h1>
+        <div class="input">  
+          <input type="text" placeholder="Insira uma letra ou palavra..." minlength="1" id="guess" autocomplete="off">
+          <div class="btn">Enviar</div>
+        </div>
+      </div>
+
+      <div class="jogo">
+        <div class="jogo-forca">
+          <div class="forca-top"></div>
+          <div class="forca-mid">
+            <div class="mid-1"></div>
+            <div class="mid-2"></div>
+            <div class="mid-3"></div>
+            <div class="body">
+              <div class="body-head">
+                <div class="head-eyes">
+                  <div class="right-eye"></div>
+                  <div class="left-eye"></div>
+                </div>
+                <div class="head-mouth"></div>
+              </div>
+              <div class="noose"></div>
+              <div class="body-body"></div>
+              <div class="body-arms">
+                <div class="right-arm"></div>
+                <div class="left-arm"></div>
+              </div>
+              <div class="body-legs">
+                <div class="right-leg"></div>
+                <div class="left-leg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="forca-bottom"></div>
+        </div>
+        <div class="jogo-letras">
+        </div>
+      </div>
+
+      <div class="cemiterio"></div>
+
+      <div class="play-btn">
+        Começar Partida
+      </div>
+
+      <div class="results">
+        <div class="result-img"><img src="" alt=""></div>
+        <div class="result-title"></div>
+        <div class="result-info"></div>
+        <div class="play-btn"> Jogar Novamente</div>
+      </div>
+    </div>
+    <footer>
+      <p>Criado por Azuryanz</p>
+    </footer>
+    <script src="assets/scripts/palavras.js"></script>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
